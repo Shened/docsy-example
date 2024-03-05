@@ -2,11 +2,11 @@ baseURL = "/"
 title = "Goldydocs"
 
 # Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
+contentDir = "content/fa"
+defaultContentLanguage = "pt"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
-enableMissingTranslationPlaceholders = true
+enableMissingTranslationPlaceholders = false
 
 enableRobotsTXT = true
 
@@ -57,6 +57,7 @@ anchor = "smart"
 [languages.en]
 languageName ="English"
 # Weight used for sorting.
+contentDir = "content/en"
 weight = 1
 [languages.en.params]
 title = "Goldydocs"
@@ -64,6 +65,7 @@ description = "A Docsy example site"
 
 [languages.no]
 languageName ="Norsk"
+weight = 2
 contentDir = "content/no"
 [languages.no.params]
 title = "Goldydocs"
@@ -71,12 +73,13 @@ description = "Docsy er operativsystem for skyen"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
-[languages.fa]
-languageName ="فارسی"
+[languages.pt]
+languageName ="Português"
+weight = 0
 contentDir = "content/fa"
-[languages.fa.params]
-title = "اسناد گلدی"
-description = "یک نمونه برای پوسته داکسی"
+[languages.pt.params]
+title = "Documentos Goldie"
+description = "Um exemplo para o tema Docsy"
 time_format_default = "2006.01.02"
 time_format_blog = "2006.01.02"
 
@@ -135,10 +138,10 @@ github_project_repo = "https://github.com/google/docsy"
 github_branch= "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "d72aa9b2712488cc3"
+# gcs_engine_id = "d72aa9b2712488cc3"
 
 # Enable Lunr.js offline search
-offlineSearch = false
+offlineSearch = true
 
 # Enable syntax highlighting and copy buttons on code blocks with Prism
 prism_syntax_highlighting = false

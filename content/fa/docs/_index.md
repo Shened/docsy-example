@@ -1,6 +1,6 @@
 ---
-title: مستندات
-linkTitle: مستندات
+title: Documentação
+linkTitle: Documentação
 weight: 20
 menu:
   main:
@@ -8,11 +8,11 @@ menu:
 ---
 
 {{% pageinfo %}}
-این صفحه به شما نشان می‌دهد چگونه از این پوسته استفاده کنید.
+Esta página mostra como usar este tema.
 {{% /pageinfo %}}
 
-این قسمت مکانیست که مستندات کاربران در آن قرار دارد. همه‌ی اطلاعاتی که کاربران شما نیاز به فهمیدن دارند تا به درستی از پروژه شما استفاده کنند.
+Esta seção é onde a documentação dos usuários está localizada. Todas as informações que seus usuários precisam entender para usar seu projeto corretamente.
 
-برای مستندات بزرگتر ما پیشنهاد می‌کنیم مطالب را طبق این مثال قرار دهید. البته ممکن است بعضی از آنها نیاز نباشد. پس در حذف و اضافه کردن مطالب خود راحت باشید. نمونه کوچکتر مستندات داکسی را می‌توانید در [اینجا](https://docsy.dev/docs/) مشاهده کنید که در [مخزن گیتهاب پوسته داکسی](https://github.com/google/docsy/tree/master/userguide) قرار دارد.
+Para documentações mais extensas, sugerimos organizar o conteúdo conforme este exemplo. No entanto, algumas partes podem não ser necessárias, então sinta-se à vontade para adicionar ou remover conteúdo conforme necessário. Você pode ver um exemplo menor da documentação Doxy em aqui, que está no repositório GitHub do tema Doxy.
 
-برای فهمیدن چگونگی استفاده از پوسته داکسی، از [رهنمود‌های پوسته داکسی](https://docsy.dev/docs/) استفاده کنید. همچنین می‌توانید در باره‌ی چگونگی مرتب کردن مستندات خود در [اینجا](https://docsy.dev/docs/best-practices/organizing-content/) بخوانید.
+Para entender como usar o tema Doxy, consulte a documentação do tema Doxy. Você também pode ler sobre como organizar sua documentação aqui.

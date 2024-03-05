@@ -1,5 +1,5 @@
 ---
-title: انجمن
+title: Forum
 menu:
   main:
     weight: 40

@@ -1,47 +1,30 @@
 ---
 date: 2018-10-06
-title: مستدات راحت با داکسی
-linkTitle: معرفی داکسی
-description: "پوسته داکسی، قدرت گرفته از هوگو باعث می‌شود که سازندگان پروژه تمرکز خود را روی ساخت مطالب قرار دهند و نیازی به ساخت وبسایت نداشته باشد."
+title: Documentação Fácil com Doxie
+linkTitle: Introdução ao Doxie
+description: "O tema Doxie, alimentado pelo Hugo, permite que os construtores de projetos se concentrem na criação de conteúdo, sem a necessidade de construir um site."
 author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
 resources:
 - src: "**.{png,jpg}"
-  title: "Image #:counter"
+  title: "Imagem #:counter"
   params:
-    byline: "Photo: Riona MacNamara / CC-BY-CA"
+    byline: "Foto: Riona MacNamara / CC-BY-CA"
 ---
 
-**این یک نوشته معمولی شامل تصویر می باشد.**
+**Este é um post comum que inclui uma imagem.**
 
-در مشخصات ابتدایی هر مطلب، عنوان، تاریخ و یک خلاصه که در لیست نوشته های نمایش داده می‌شود قرار دارد.
+Nos metadados iniciais de cada post, há um título, uma data e um resumo que é exibido na lista de posts.
 
 
-## شامل تصویر
+## Incluindo uma Imagem
 
-اینجا یک تصویر (`featured-sunset-get.png`) که شامل بالاین و کپشن است می‌باشد.
+Aqui está uma imagem (`featured-sunset-get.png`) que inclui uma legenda e uma byline.
 
 
 {{< imgproc sunset Fill "600x300" >}}
-دریافت و تغییر سایز یک تصویر در نسخه هوگو ۰.۴۳
+Obtendo e redimensionando uma imagem na versão 0.43 do Hugo
 {{< /imgproc >}}
 
 
-مشخصات زیر که در اطلاعات پست آمده است روی تمامی تصاویر این پست اعمال می‌شوند:
+As seguintes especificações, que estão nos dados do post, são aplicadas a todas as imagens deste post:
 
-```
-resources:
-- src: "**.{png,jpg}"
-  title: "Image #:counter"
-  params:
-    byline: "Photo: Riona MacNamara / CC-BY-CA"
-```
-
-برای افزودن تصویر در یک صفحه، مشخصات آن را به صورت زیر مشخص کنید:
-
-```
-{{< imgproc sunset Fill "600x300" >}}
-دریافت و تغییر سایز یک تصویر در نسخه هوگو ۰.۴۳
-{{< /imgproc >}}
-```
-
-تصاویر در اندازه و با بایلاین مشخص شده نمایش داده می‌شوند.
